@@ -5,10 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-<button type="button" onclick="baby();">click me!</button>
+<div id="baby"></div>
+<button type="button" onclick="sad();">click me!</button>
 <script>
-    function baby() {
-        alert('xin chào!')
+    function sad() {
+        document.getElementById('baby').innerHTML = 'xin chào!'
     }
 </script>
 </body>
